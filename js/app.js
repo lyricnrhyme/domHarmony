@@ -12,11 +12,24 @@ var fullNameChange = document.getElementById("fullname");
 fullNameChange.innerHTML = "Ronald McDonald";
 
 //4. In the div id data section, target the div element with the id of 'age' and change Age to 63 Years Old.
+var ageChange = document.getElementById("age");
+ageChange.innerHTML = "63 Years Old";
 
 //5. In the div id data section, create a div with an id of job and give it the following information: Clown and Restauranteur.
+var newJob = document.createElement("div");
+var jobChange = document.getElementById("data")
+newJob.id = "job";
+jobChange.appendChild(newJob);
+
+newJob.innerHTML = "Clown and Restauranteur";
 
 //6. In the div id data section, create a div with an id of hobbies and give it the following information: Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King.
+var newHobby = document.createElement("div");
+var hobbyChange = document.getElementById("data");
+newHobby.id = "hobbies";
+hobbyChange.appendChild(newHobby);
 
+newHobby.innerHTML = "Long romantic walks on the beach, candle light Big Mac dinners and tormenting the King."
 //7. In the div id data section, create a div with an id of location and give it the following information: Honolulu, HI.
 
 //8. In the div id data section, create a div with an id of wants and give it the following information: Looking for a Mrs. McDonald.
